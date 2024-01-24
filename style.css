@@ -1,0 +1,43 @@
+body{background-color: navy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color:navy}
+h1{color:gold;}
+table{border-style:double;
+      background-color: gold;
+      border-color: navy;
+      border-spacing: 32px;
+      border-width: 15px;}
+h3{color: gold;}
+h4{color:gold}
+.dropbtn {background-color:gold;
+      color: navy;
+      padding: 16px;
+      font-size: 16px;
+      border: none;}
+.dropdown {
+      position:relative;
+      display: inline-block;}
+.dropdown-content {
+            border-style:double;
+            display: none;
+            position: absolute;
+            background-color:gold;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(6, 7, 54, 0.2);
+            z-index: 1;}
+.dropdown-content a {
+            color: navy;
+            padding: 12px 12px;
+            text-decoration: none;
+            display: block;}
+ 
+.dropdown-content a:hover {background-color:darkgrey;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: gold;}
+
+.parent{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 5px;} 
+
+  
